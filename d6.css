@@ -1,0 +1,236 @@
+* {
+	margin: 0;/*外边距*/
+	pading: 0;/*内边距*/
+}
+.nav-wrap {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+	background: linear-gradient(120deg, #91a4c2 25%, #cbe0e9 100%);
+	opacity: 0.8;
+	box-shadow: 3px 2px 5px 1px #808080;
+	z-index: 2;
+}
+.nav-wrap h2 {
+	position: absolute;
+	left: 280px;
+	top: 20px;
+	font: 500 30px 华文新魏;
+	height: 40px;
+	line-height: 40px;
+}
+
+.guangbiao {
+	z-index: -1;
+	position: absolute;
+	background: url(../img/jdzguangbiao.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100px;
+	height: 80px;
+	border-radius: 50px;
+	left: 70px;
+	text-align: center;
+}
+
+.nav-wrap ul {	
+	display: flex;
+	position: absolute;
+	left: 500px;
+	top: 0px;
+	width: 900px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 8px;
+	box-shadow: 5px 0px 5px 5px #808080;
+}
+.nav-wrap li {
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	margin: 30px;
+	list-style: none;
+}
+.nav-wrap li:hover {
+	transform: scale(1.2);
+}
+
+#focus{
+	position: absolute;
+	width: 100%;
+	height: 15%;
+	bottom: 65%;
+}
+
+ #focus .preBtn,
+	  #focus .nextBtn {
+		display: none;
+	  }
+      #focus .preBtn {
+		float: left;
+		border-radius: 100px;
+        width: 45px;
+        height: 100px;
+        left: 0;
+        top: 150px;
+        background: url(../img/spirte.png) no-repeat 0 0;
+        background-color: #000;
+        cursor: pointer;
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+      }
+      #focus .nextBtn {
+		float: right;
+		border-radius: 100px;
+        width: 45px;
+        height: 100px;
+        right: 0px;
+        top: 150px;
+        background: url(../img/spirte.png) no-repeat right top;
+        background-color: #000;
+        cursor: pointer;
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+      }
+
+.daohang a {
+	text-decoration: none;
+	color: black;
+	font: 500 25px 华文新魏;
+}
+#pic {
+	text-align: center;
+	width: 100%;
+	height: 450px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	object-fit: cover;
+}
+.daohang {
+	width: 100%;
+	height: 400px;
+	/* background-image: url(../img/07.jpg); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+h3 {
+	position: relative;
+	top: 80px;
+	text-align: center;
+	font: 500 30px 华文新魏;
+}
+h3::before {
+	content: "";
+	display: inline-block;
+	text-decoration: line-through;
+	width: 500px;
+	border-top: 1px solid #ccc;
+	margin-right: 20px;
+	
+}
+h3::after{
+	content: "";
+	display: inline-block;
+	text-decoration: line-through;
+	width: 500px;
+	border-top: 1px solid #ccc;
+	margin-left: 20px;
+	
+}
+
+.all-image {
+	width: 90%;
+	height: 600px;
+	align-items: center;
+	display: flex;
+	position: relative;
+	top: 200px;
+	left: 100px; 
+}
+.box {
+	height: 600px;
+	width: 220px;
+	flex: 1; /* 确保.box分配到均匀空间 */
+	overflow: hidden;
+	margin: 0 20px 0 20px;
+	box-shadow: 10px 10px 10px 20px rgba(0, 0, 0,0.5);
+	border-radius: 20px;
+	border: 10px solid #fff;
+	background-color: #fff;
+	transition: 0.5s;
+}
+.box img {
+	width: 200%;
+	height: 90%;
+	object-fit: cover;  /* 防止图像缩放时变形 */
+	transition: 0.5s;
+	border-radius: 20px;
+}
+.box span {
+	height: 10%;
+	font: 200 25px '优设标题黑';
+	justify-content: center;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+.box:hover {
+	flex-basis: 40%; /* 保持图像原始宽高比,不会拉伸变形 */
+}
+
+.box:hover img {
+	width: 100%;
+	height: 90%;
+}
+
+.bottom-box1 {
+	position: absolute;
+	top: 1309px;
+	left: 130px;
+	width: 250px;
+	height: 400px;
+	border: #0601012e 2px solid;
+	border-top-color:#ef7e6e;
+}
+.bottom-box2 {
+	position: absolute;
+	top: 1309px;
+	left: 435px;
+	width: 250px;
+	height: 400px;
+	border: #0601012e 2px solid;
+	border-top-color:#ef7e6e;
+}
+.bottom-box3 {
+	position: absolute;
+	top: 1309px;
+	left: 738px;
+	width: 250px;
+	height: 400px;
+	border: #0601012e 2px solid;
+	border-top-color:#ef7e6e;
+}
+.bottom-box4 {
+	position: absolute;
+	top: 1309px;
+	right: 400px;
+	width: 250px;
+	height: 400px;
+	border: #0601012e 2px solid;
+	border-top-color:#ef7e6e;
+}
+.bottom-box5 {
+	position: absolute;
+	top: 1309px;
+	right: 100px;
+	width: 250px;
+	height: 400px;
+	border: #0601012e 2px solid;
+	border-top-color:#ef7e6e;
+}

@@ -1,0 +1,264 @@
+* {
+	margin: 0;/*外边距*/
+	pading: 0;/*内边距*/
+}
+.nav-wrap {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+	background: linear-gradient(120deg, #91a4c2 25%, #cbe0e9 100%);
+	opacity: 0.8;
+	box-shadow: 3px 2px 5px 1px #808080;
+	z-index: 2;
+}
+.nav-wrap h2 {
+	position: absolute;
+	left: 280px;
+	top: 20px;
+	font: 500 30px 华文新魏;
+	height: 40px;
+	line-height: 40px;
+}
+
+.guangbiao {
+	z-index: -1;
+	position: absolute;
+	background: url(../img/jdzguangbiao.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100px;
+	height: 80px;
+	border-radius: 50px;
+	left: 70px;
+	text-align: center;
+}
+
+.nav-wrap ul {	
+	display: flex;
+	position: absolute;
+	left: 500px;
+	top: 0px;
+	width: 900px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 8px;
+	box-shadow: 5px 0px 5px 5px #808080;
+}
+.nav-wrap li {
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	margin: 30px;
+	list-style: none;
+}
+.nav-wrap li:hover {
+	transform: scale(1.2);
+}
+
+#focus{
+	position: absolute;
+	width: 100%;
+	height: 15%;
+	bottom: 65%;
+}
+
+ #focus .preBtn,
+	  #focus .nextBtn {
+		display: none;
+	  }
+      #focus .preBtn {
+		float: left;
+		border-radius: 100px;
+        width: 45px;
+        height: 100px;
+        left: 0;
+        top: 150px;
+        background: url(../img/spirte.png) no-repeat 0 0;
+        background-color: #000;
+        cursor: pointer;
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+      }
+      #focus .nextBtn {
+		float: right;
+		border-radius: 100px;
+        width: 45px;
+        height: 100px;
+        right: 0px;
+        top: 150px;
+        background: url(../img/spirte.png) no-repeat right top;
+        background-color: #000;
+        cursor: pointer;
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+      }
+
+.daohang a {
+	text-decoration: none;
+	color: black;
+	font: 500 25px 华文新魏;
+}
+#pic {
+	text-align: center;
+	width: 100%;
+	height: 450px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	object-fit: cover;
+}
+.daohang {
+	width: 100%;
+	height: 400px;
+	/* background-image: url(../img/07.jpg); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+.jsjdz {
+
+	position: relative;
+	width: 100%;
+	height: 2000px;
+	background-color: #f9ece2b5;
+	top: 50px;
+}
+
+.left-box {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	width: 400px;
+	height: 220px;
+	border: #0601012e 2px solid;
+	border-top-color:#ef7e6e;
+}
+.left-box h3 {
+	text-align: center;
+}
+.left-box a {
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+	font: 500 25px 楷体;
+}
+.left-box li {
+	margin: 20px;
+	list-style: none;
+}
+.left-box li::before {
+	background-image: url(../img/jiantou.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.jiantou {
+	margin-right: 10px;
+	float: left;
+	width: 20px;
+	height: 32px;
+	background-image: url(../img/jiantou.jpg);
+	background-position: center;
+	background-size:cover;
+}
+.right-box {
+	width: 1000px;
+	height: 1150px;
+	position: relative;
+	top: 20px;
+	left: 530px;
+	border: #0601012e 2px solid;
+	border-top-color:#ef7e6e;
+}
+.right-box a {
+	text-decoration: none;
+	font-size: 17px;
+	opacity: 0.6;
+	color: black;
+}
+span {
+	font-size: 17px;
+	opacity: 0.6;
+}
+.right-box h2 {
+	position: relative;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+}
+.right-box h2::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 55px;
+	left: 45px;
+	text-decoration: line-through;
+	border-top: 1px solid #ccc;
+	margin-right: 20px;
+	width: 900px;
+}
+.mark {
+	display: inline-block;
+	width: 127px;
+	height: 29px;
+	background-color: #ef7e6e;
+	border-radius: 8px;
+	box-shadow: 3px 2px 5px 1px #808080;
+}
+.word4 {
+	font: 500 20px 楷体;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	width: 900px;
+	height: 500px;
+}
+.text1 {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+}
+.text2 {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 400px;
+	right: 0px;
+}
+.text3 {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 750px;
+}
+.photo4,.photo5,.photo6 {
+	width: 400px;
+	height: 200px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px 1px #808080;
+	transition: 0.5s;
+	object-fit: cover;
+	position: absolute;
+}
+
+.photo4 {
+	right: 0px;
+	top: 50px;
+}
+.photo5{
+	left: 0px;
+	top: 400px;
+}
+.photo6 {
+	right: 0px;
+	top: 750px;
+}
+.photo4:hover,.photo5:hover,.photo6:hover{
+	object-position: bottom ; /* 将元素内容在垂直方向上对齐到容器的底部 */
+}
