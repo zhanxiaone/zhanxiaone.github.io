@@ -35,7 +35,7 @@
 	text-align: center;
 }
 
-ul {	
+.nav-wrap ul {	
 	display: flex;
 	position: absolute;
 	left: 500px;
@@ -485,6 +485,7 @@ footer p,footer div {
 	right: 180px;
 	top: 50px;
 }
+
 
 
 
