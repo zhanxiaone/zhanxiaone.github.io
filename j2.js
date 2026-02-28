@@ -2,11 +2,11 @@
 
 //轮播图
 var picsArr=new Array();
-			picsArr[0]="img/pic1.jpg";
-			picsArr[1]="img/pic2.jpg";
-			picsArr[2]="img/pic3.jpg";
-			picsArr[3]="img/pic4.jpg";
-			picsArr[4]="img/pic5.jpg";
+			picsArr[0]="pic1.jpg";
+			picsArr[1]="pic2.jpg";
+			picsArr[2]="pic3.jpg";
+			picsArr[3]="pic4.jpg";
+			picsArr[4]="pic5.jpg";
 			var timer,index=0;
 function showPic(){
 	//获取id为"pic"的元素并将其src属性设置为 picsArr 数组中索引为 index 的图片路径。
@@ -141,4 +141,5 @@ document.addEventListener("DOMContentLoaded",function(){
 				
 			})
 			
+
 })
