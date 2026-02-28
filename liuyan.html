@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>景德镇留言板 - 带头像版</title>
+	<link rel="stylesheet" href="CSS/liuyan.css"/>
+	<script src="js/liuyan.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>景德镇留言墙</h1>
+            <p class="subtitle">选择头像，分享您对景德镇陶瓷文化的感悟</p>
+            <div class="ceramic-icon">🏺</div>
+			<div class="zhuye"><a href="demo2.html">去主页了解更多</a></div>
+			
+			 <div class="time" id="showTime"></div>
+			
+        </header>
+        
+        <div class="main-content">
+            <!-- 留言表单 -->
+            <section class="message-form">
+                <h2>发表留言</h2>
+                <form id="messageForm">
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" class="form-control" placeholder="请输入您的姓名或昵称">
+                    </div>
+                    
+                    <div class="avatar-selection">
+                        <div class="avatar-title">选择头像</div>
+						
+                        <div class="avatar-options">
+							<img class="avatar-option " id="avatar" src="img/02.jpg" alt="" />
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label  for="message">留言内容</label>
+                        <textarea id="txt" class="form-control" placeholder="请分享您对景德镇的印象、回忆或建议..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">发布留言</button>
+                </form>
+            </section>
+            
+            <!-- 留言列表 -->
+            <section class="messages">
+                <h2>近期留言</h2>
+                
+               
+                
+                <div class="message-card">
+                    <div class="message-avatar">
+                        <div class="avatar-display">
+							<img src="images/user-1.jpg"/>
+						</div>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-header">
+                            <div class="author-info">
+                                <div class="author">陶瓷研究者</div>
+                            </div>
+							
+                            <div class="date">2023年11月8日</div>
+                        </div>
+                        <div class="message-text">
+                            景德镇陶瓷文化源远流长，从宋代影青瓷到明清青花瓷，每一时期都有独特风格。希望传统工艺能够更好地传承下去。
+                        </div>
+						<span><a class="remove" href="#">删除</a></span>
+                    </div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-avatar">
+                        <div class="avatar-display">
+							<img src="images/user-2.jpg"/>
+						</div>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-header">
+                            <div class="author-info">
+                                <div class="author">旅行者小王</div>
+                            </div>
+							
+                            <div class="date">2023年11月5日</div>
+                        </div>
+                        <div class="message-text">
+                            第一次来景德镇，被这里的陶瓷艺术深深吸引。在陶瓷市场淘到了几件心仪的作品，不虚此行！
+                        </div>
+						<span><a class="remove" href="#">删除</a></span>
+                    </div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-avatar">
+                        <div class="avatar-display">
+							<img src="images/user-3.jpg"/>
+						</div>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-header">
+                            <div class="author-info">
+                                <div class="author">文化志愿者</div>
+                            </div>
+							
+                            <div class="date">2023年11月2日</div>
+                        </div>
+                        <div class="message-text">
+                            景德镇不仅保留了传统制瓷工艺，还在不断创新。陶溪川文创街区将传统与现代完美融合，值得一看。
+                        </div>
+						<span><a class="remove" href="#">删除</a></span>
+                    </div>
+                </div>
+				
+				
+            </section>
+        </div>
+        
+       
+    </div>
+
+   
+</body>
+</html>

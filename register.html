@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>注册</title>
+		<link rel="stylesheet" href="CSS/register.css">
+		
+	</head>
+	<body>
+		
+    <div class="container">
+        <div class="from-box">
+            <!-- 注册 -->
+            <form class="register-box" onsubmit="return checkAll()">
+                <h1>register</h1>
+                <input onblur="checkUser()" id="userName" type="text" placeholder="用户名由2-16位字符组成">
+                <input onblur="checkEmail()" id="email" type="email" placeholder="邮箱格式示例：x@qq.com">
+                <input  onblur="checkPwd()" id="pwd" type="password" placeholder="密码由6位字符组成">
+                <input  onblur="checkRepwd()" id="repwd" type="password" placeholder="确认密码">
+                <button id="registerbutton">注册</button>
+            </form>
+
+        </div>
+        <div class="con-box left">
+            <h2>欢迎来到<span>景德镇</span></h2>  
+            <p>快来领取你的专属<span>账号</span>吧</p>          
+            <img src="./img/1.png" alt="">
+            <p>已有账号</p>
+            <button id="login"><a href="login.html">去登录</a></button>
+        </div>
+       
+    </div>
+	<script src="js/register.js"></script>
+	</body>
+</html>
