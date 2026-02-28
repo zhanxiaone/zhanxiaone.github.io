@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
 
 var num = Math.floor(Math.random() * 15);
-document.querySelector("#avatar").setAttribute("src","images/" + num +".jpg");
+document.querySelector("#avatar").setAttribute("src", num +".jpg");
 
 
 var btn=document.querySelector(".submit-btn");
@@ -18,7 +18,7 @@ btn.onclick = function(){
     reply_div.setAttribute("class","message-card");
     reply_div.innerHTML = `<div class="message-avatar">
 								<div class="avatar-display">
-									<img src="images/${num}.jpg" alt=""/>
+									<img src="/${num}.jpg" alt=""/>
 								</div>
 							</div>
                     <div class="message-content">
@@ -82,6 +82,7 @@ removeInfo();
         
         // 3. 设置定时器，每秒（1000毫秒）更新一次，实现动态效果
         setInterval(refreshTime, 1000);
+
 
 
 })
