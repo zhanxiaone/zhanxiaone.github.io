@@ -18,7 +18,7 @@ btn.onclick = function(){
     reply_div.setAttribute("class","message-card");
     reply_div.innerHTML = `<div class="message-avatar">
 								<div class="avatar-display">
-									<img src="${num}.jpg" alt="">
+									<img src="${num}.jpg" alt=""/>
 								</div>
 							</div>
                     <div class="message-content">
@@ -86,4 +86,5 @@ removeInfo();
 
 
 })
+
 
