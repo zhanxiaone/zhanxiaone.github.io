@@ -24,7 +24,7 @@
 .guangbiao {
 	z-index: -1;
 	position: absolute;
-	background: url(../img/jdzguangbiao.jpg);
+	background: url(jdzguangbiao.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -76,7 +76,7 @@ li:hover {
         height: 100px;
         left: 0;
         top: 150px;
-        background: url(../img/spirte.png) no-repeat 0 0;
+        background: url(spirte.png) no-repeat 0 0;
         background-color: #000;
         cursor: pointer;
         opacity: 0.4;
@@ -89,7 +89,7 @@ li:hover {
         height: 100px;
         right: 0px;
         top: 150px;
-        background: url(../img/spirte.png) no-repeat right top;
+        background: url(spirte.png) no-repeat right top;
         background-color: #000;
         cursor: pointer;
         opacity: 0.4;
@@ -113,7 +113,7 @@ li:hover {
 .daohang {
 	width: 100%;
 	height: 400px;
-	/* background-image: url(../img/07.jpg); */
+	/* background-image: url(07.jpg); */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -165,17 +165,17 @@ h3::after{
 	transition: 0.5s;
 }
 .photo1 {
-	background-image: url(../img/08.jpg);
+	background-image: url(08.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
 }
 .photo2 {
-	background-image: url(../img/09.jpg);
+	background-image: url(09.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .photo3 {
-	background-image: url(../img/11.jpg);
+	background-image: url(11.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -270,22 +270,22 @@ h3::after{
 	opacity: 0.9;
 }
 .tupian3 {
-	background-image: url(../img/cigong.jpg);
+	background-image: url(cigong.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .tupian1 {
-	background-image: url(../img/taoxic.jpg);
+	background-image: url(taoxic.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .tupian4 {
-	background-image: url(../img/yaoliguz.jpg);
+	background-image: url(yaoliguz.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .tupian2 {
-	background-image: url(../img/yuyao.jpg);
+	background-image: url(yuyao.jpg);
 	background-position: 50% 77%;
 	background-size: cover;
 }
@@ -340,42 +340,42 @@ h3::after{
 	position: relative;
 }
 .ms1 {
-	background-image: url(../img/chi1.jpg);
+	background-image: url(chi1.jpg);
 	background-position: 50% 100%;
 	background-size: cover;
 }
 .ms2 {
-	background-image: url(../img/chi2.jpg);
+	background-image: url(chi2.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .ms3 {
-	background-image: url(../img/chi3.jpg);
+	background-image: url(chi3.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .ms4 {
-	background-image: url(../img/chi4.jpg);
+	background-image: url(chi4.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .ms5 {
-	background-image: url(../img/chi5.jpg);
+	background-image: url(chi5.jpg);
 	background-position: center;
 	background-size: cover;
 }
 .ms6 {
-	background-image: url(../img/chi6.jpg);
+	background-image: url(chi6.jpg);
 	background-position: 50% 0%;
 	background-size: cover;
 }
 .ms7 {
-	background-image: url(../img/chi7.jpg);
+	background-image: url(chi7.jpg);
 	background-position: 80% 60%;
 	background-size: cover;
 }
 .ms8 {
-	background-image: url(../img/chi8.jpg);
+	background-image: url(chi8.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -452,7 +452,7 @@ footer p,footer div {
 	position: fixed;
 	width: 50px;
 	height: 50px;
-	background-image: url(../img/05.jpeg);
+	background-image: url(05.jpeg);
 	background-position: center;
 	background-size: cover;
 	bottom: 20px;
@@ -464,7 +464,7 @@ footer p,footer div {
 	height: 40px;
 	background-position: center;
 	background-size: cover;
-	background-image: url(../img/jdzlogo.jpg);
+	background-image: url(jdzlogo.jpg);
 	position: absolute;
 	left: 180px;
 	top: 45px;
@@ -485,6 +485,7 @@ footer p,footer div {
 	right: 180px;
 	top: 50px;
 }
+
 
 
 
